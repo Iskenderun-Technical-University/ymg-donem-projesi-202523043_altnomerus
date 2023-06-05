@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Bahnschrift;
+}
+
+/* //////// HEADER //////// */
+
+.menubar {
+  height: 15vh;
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 25px;
+}
+nav ul li a:hover {
+  color: rgb(220, 200, 19);
+  transition: 0.2s;
+}
+
+nav btn a img {
+  height: 10vh;
+}
+
+.logo_omerusart {
+  border-radius: 50%;
+  height: 10vh;
+}
+
+.logo_artstation {
+  height: 10vh;
+}
+
+/* //////// HOME //////// */
+
+.home {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.greyarea {
+  background-color: rgb(202, 202, 202);
+  width: 65%;
+  height: 20%;
+  border-radius: 2rem;
+  padding: 2% 2% 2% 2%;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* //////// CONTACT //////// */

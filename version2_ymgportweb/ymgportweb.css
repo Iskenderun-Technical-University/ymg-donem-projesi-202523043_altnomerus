@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Bahnschrift;
+}
+
+/* //////// HEADER //////// */
+
+.menubar {
+  height: 15vh;
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 25px;
+}
+nav ul li a:hover {
+  color: rgb(220, 200, 19);
+  transition: 0.2s;
+}
+
+nav btn a img {
+  height: 10vh;
+}
+
+.logo_omerusart {
+  border-radius: 50%;
+  height: 10vh;
+}
+
+.logo_artstation {
+  height: 10vh;
+}
+
+/* //////// HOME //////// */
+
+.home {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.greyarea {
+  background-color: rgb(202, 202, 202);
+  width: 65%;
+  height: 20%;
+  border-radius: 2rem;
+  padding: 2% 2% 2% 2%;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* //////// PORTFOLIO //////// */
+
+.portfolio {
+  background-color: rgb(132, 132, 132);
+  box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.galleryarea {
+  background-color: rgb(202, 202, 202);
+  height: auto;
+  width: 65%;
+  border-radius: 2rem;
+  font-size: 20px;
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.card {
+  background-color: rgb(221, 221, 221);
+  border-radius: 15px;
+  width: 45vh;
+  align-items: center;
+  box-sizing: content-box;
+  display: grid;
+  padding: 2%;
+}
+
+.card .imagebox {
+  border-radius: 2rem;
+  display: flex;
+  box-sizing: content-box;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3vh;
+}
+
+.card img {
+  height: 30vh;
+  border-radius: 15px;
+}
+
+.card .seemorebox {
+  background-color: cadetblue;
+  border-radius: 2rem;
+  display: flex;
+  box-sizing: content-box;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1vh;
+}
+
+/* //////// CONTACT //////// */
+
+.contact {
+  width: 100%;
+  padding-top: 5vh;
+  padding-bottom: 4vh;
+  background-color: #b1b1b1;
+}
+.contact .contact_form {
+  width: 65%;
+  margin: auto auto;
+  align-items: center;
+  justify-content: center;
+}
+.contact .contact_form .contact-form-text {
+  display: block;
+  width: 100%;
+  height: 8vh;
+  box-sizing: border-box;
+  margin: 20px 0;
+  padding: 20px 40px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  border: 0;
+}
+.contact .contact_form .contact-form-textarea {
+  display: block;
+  width: 100%;
+  height: 20vh;
+  box-sizing: border-box;
+  margin: 16px 0;
+  padding: 20px 40px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  border-radius: 1.5rem;
+  font-size: 1.5rem;
+  border: 0;
+}
+.contact-form-text:focus,
+.contact-form-textarea:focus {
+  box-shadow: 0 0 2px 2px rgb(92, 92, 92);
+}
+.contact_button {
+  border-radius: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  height: 8rem;
+  color: white;
+  cursor: pointer;
+  font-size: 2rem;
+  text-transform: none;
+  border: 0;
+  background-color: #626262;
+}
+.contact_button:hover {
+  background-color: #434343;
+}
